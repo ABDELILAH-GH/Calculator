@@ -8,7 +8,11 @@
 </head>
 <body>
        <div class="container">
-          <input class="display" readonly>
+            <div class="fix">
+                  <input class="display" readonly>
+                  <img src="images/delete.png" class="delete" onclick="deleteLastCharacter()">
+              </div>
+              
             <div class="keys">
                   <button onclick="appendToDisplay('+')" class="btn">+</button>
                   <button onclick="appendToDisplay('7')">7</button>
