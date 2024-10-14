@@ -23,20 +23,22 @@ button:hover{
  background-color: #938282;
 }
 
-.display{
+.display {
  width: 98%;
  height: 60px;
- background-color: rgb(45, 39, 39);
+ background-color: #1a1a1a;
  margin-bottom: 10px;
  border-radius: 5px;
  color: #fff;
  font-weight: bold;
  font-size: 2rem;
- border: none;
+ border: none; 
+ padding-right: 40px;
+ background-size: 20px 20px;
+ box-sizing: border-box;
 }
-.display:hover{
- border: 2px solid rgb(220, 137, 137);
-}
+
+
 .container{
  width: 400px;
  margin-left: 450px;
@@ -50,4 +52,19 @@ button:hover{
 }
 .btn:hover{
  background-color:rgb(255, 95, 2);
+}
+.delete{
+width: 50px;
+}
+.fix {
+ position: relative;
+}
+.delete {
+ position: absolute;
+ top: 50%;
+ right: 10px;
+ transform: translateY(-50%);
+ cursor: pointer;
+ width: 30px;
+ height: 30px;
 }
